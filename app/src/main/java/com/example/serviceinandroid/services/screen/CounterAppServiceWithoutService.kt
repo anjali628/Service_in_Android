@@ -23,6 +23,7 @@ fun CounterAppWithoutService() {
     LaunchedEffect(key1 = counter ){
         delay(1000)
         counter++
+
     }
 
     Box(modifier = Modifier.fillMaxSize(),
